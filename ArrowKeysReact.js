@@ -12,7 +12,7 @@ ArrowKeysReact.config = (config) => {
 };
 
 ArrowKeysReact.events = {
-  onWheel: (e) => {
+  onKeyDown: (e) => {
     if (e.keyCode === 37){
       if(ArrowKeysReact._config.hasOwnProperty('left')){
         ArrowKeysReact.left();
