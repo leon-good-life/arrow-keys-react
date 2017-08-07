@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leon-good-life/congenial-invention.git"
+    "url": "git+https://github.com/leon-good-life/arrow-keys-react.git"
   },
   "keywords": [
     "arrow",
@@ -19,7 +19,7 @@
   "author": "leon.good.life",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/leon-good-life/congenial-invention/issues"
+    "url": "https://github.com/leon-good-life/arrow-keys-react/issues"
   },
-  "homepage": "https://github.com/leon-good-life/congenial-invention#readme"
+  "homepage": "https://github.com/leon-good-life/arrow-keys-react#readme"
 }
