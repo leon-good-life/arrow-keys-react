@@ -1,0 +1,25 @@
+{
+  "name": "arrow-keys-react",
+  "version": "1.0.0",
+  "description": "Easily integrate your react component with keyboard arrow keys, with the same configuration used in swipe-react and wheel-react packages.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leon-good-life/congenial-invention.git"
+  },
+  "keywords": [
+    "arrow",
+    "keys",
+    "keyboard",
+    "react"
+  ],
+  "author": "leon.good.life",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leon-good-life/congenial-invention/issues"
+  },
+  "homepage": "https://github.com/leon-good-life/congenial-invention#readme"
+}
