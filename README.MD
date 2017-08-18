@@ -37,3 +37,54 @@ Easily integrate your react component with keyboard arrow keys, with the same co
 ```javascript
   <YourComponent {...ArrowKeysReact.events} />
 ```
+
+# Example
+```jsx
+import React, { Component } from 'react';
+import ArrowKeysReact from 'arrow-keys-react';
+
+class App extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      content: 'Use arrow keys on your keyboard!'
+    };
+    ArrowKeysReact.config({
+      left: () => {
+        this.setState({
+          content: 'left key detected.'
+        });
+      },
+      right: () => {
+        this.setState({
+          content: 'right key detected.'
+        });
+      },
+      up: () => {
+        this.setState({
+          content: 'up key detected.'
+        });
+      },
+      down: () => {
+        this.setState({
+          content: 'down key detected.'
+        });
+      }
+    });
+  }
+  render() {
+    return (
+      <div {...ArrowKeysReact.events} tabIndex="1">
+        {this.state.content}
+      </div>
+    );
+  }
+}
+
+export default App;
+
+```
+### Remarks
+* When you use `div`, add `tabIndex` property.
+* The element must be on focus in order to detect arrow keys. The arrow keys will be detected when the user will click on the element, or focus it using `tab` key in the keyboard. Alterntively you can program your component to `focus()` when it loaded. 
+* `ArrowKeysReact.config` can be placed in `render` function instead of in the `constuctor` function.
