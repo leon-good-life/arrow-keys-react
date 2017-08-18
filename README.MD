@@ -4,7 +4,7 @@
 
 [![NPM](https://nodei.co/npm/arrow-keys-react.png)](https://nodei.co/npm/arrow-keys-react/)
 
-Easily integrate your react component with keyboard arrow keys, with the same configuration used in swipe-react and wheel-react packages.
+Easily integrate your react component with keyboard arrow keys, with the same configuration used in [swipe-react](https://github.com/leon-good-life/swipe-react) and [wheel-react](https://github.com/leon-good-life/wheel-react) packages.
 
 # Usage
 1. Install the npm package:
