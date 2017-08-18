@@ -1,6 +1,6 @@
 {
   "name": "arrow-keys-react",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Easily integrate your react component with keyboard arrow keys, with the same configuration used in swipe-react and wheel-react packages.",
   "main": "main.js",
   "scripts": {
